@@ -52,7 +52,7 @@ def format_string(string):
         sum += item
     max_len = sum + (numOfColumn - 1)*3
     
-    #Add 2 row '   ' and '----' to results   
+    #Add 2 row '----' to results   
     separator_row = '-' * max_len
     formatted_lines.insert(0, separator_row)
     formatted_lines.insert(2, separator_row)
