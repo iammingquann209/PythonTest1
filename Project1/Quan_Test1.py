@@ -19,7 +19,7 @@ def write_file(filename, content):
 #FORMAT
 def format_string(string):  
     
-    #Delete '        ' and '------------'   
+    #Delete '------------'   
     originalLines = string.split('\n')
     lines = []
     for line in originalLines:
